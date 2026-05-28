@@ -1,0 +1,302 @@
+{
+    "workbench.colorCustomizations": {
+        "[E Ink 陰陽 Light]": {
+            "editorBracketHighlight.foreground1": "#785D6F",
+            "editorBracketHighlight.foreground2": "#ae749a",
+            "editorBracketHighlight.foreground3": "#E7798B",
+            "editorBracketHighlight.foreground4": "#c37722",
+            "editorBracketHighlight.foreground5": "#57862c",
+            "editorBracketHighlight.foreground6": "#829a6c",
+            "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000",
+            "editorBracketMatch.background": "#dbc0cf",
+            "editor.lineHighlightBorder": "#f5dbea",
+            "editor.background": "#f5dbea",
+            "editor.selectionBackground": "#b994a8",
+            "banner.background": "#f5dbea",
+            "menu.background": "#e6cddb",
+            "sideBar.background": "#f5dbea",
+            "panel.background": "#f5dbea",
+            "badge.background": "#f5dbea",
+            "input.background": "#f5dbea",
+            "button.background": "#f5dbea",
+            "statusBar.background": "#f5dbea",
+            "tab.activeBackground": "#dbc0cf",
+            "tab.inactiveBackground": "#f5dbea",
+            "tab.hoverBackground": "#e6cddb",
+            "sideBar.dropBackground": "#f5dbea",
+            "list.dropBackground": "#f5dbea",
+            "activityBar.background": "#f5dbea",
+            "selection.background": "#dbc0cf",
+            "list.focusBackground": "#f5dbea",
+            "editorPane.background": "#f5dbea",
+            "titleBar.activeBackground": "#f5dbea",
+            "sideBarTitle.background": "#f5dbea",
+            "dropdown.listBackground": "#f5dbea",
+            "toolbar.hoverBackground": "#f5dbea",
+            "menu.separatorBackground": "#f5dbea",
+            "dropdown.background": "#f5dbea",
+            "outputView.background": "#f5dbea",
+            "checkbox.background": "#f5dbea",
+            "breadcrumb.background": "#f5dbea",
+            "editorGutter.background": "#f5dbea",
+            "commandCenter.background": "#f5dbea",
+            "toolbar.activeBackground": "#f5dbea",
+            "activityBarTop.background": "#f5dbea",
+            "extensionButton.background": "#f5dbea",
+            "sideBarSectionHeader.background": "#f5dbea",
+            "debugToolBar.background": "#f5dbea",
+            "activityBarBadge.background": "#f5dbea",
+            "scrollbar.background": "#f5dbea",
+            "activityBar.activeBackground": "#f5dbea",
+            "editorGroupHeader.tabsBackground": "#f5dbea",
+            "welcomePage.background": "#f5dbea",
+            "welcomePage.tileBackground": "#f5dbea",
+            "editorGroup.emptyBackground": "#f5dbea",
+            "statusBar.noFolderBackground": "#f5dbea",
+            "textLink.foreground": "#474747",
+            "textLink.activeForeground": "#333333",
+            "list.hoverBackground": "#dbc0cf",
+            "scrollbarSlider.activeBackground": "#dbc0cf",
+            "scrollbarSlider.background": "#dbc0cf",
+            "scrollbarSlider.hoverBackground": "#e6cddb",
+            "editor.findMatchBackground": "#e6cddb",
+            "editor.findMatchHighlightBackground": "#dbc0cfa4",
+            "input.placeholderForeground": "#474747",
+            "editorWidget.background": "#e6cddb",
+            "titleBar.inactiveBackground": "#f5dbea",
+            "inputValidation.infoBackground": "#ff0000",
+            "button.hoverBackground": "#dbc0cf",
+        },
+        "[E Ink 陰陽 Dark]": {
+            "editorBracketHighlight.foreground1": "#785D6F",
+            "editorBracketHighlight.foreground2": "#ae749a",
+            "editorBracketHighlight.foreground3": "#E7798B",
+            "editorBracketHighlight.foreground4": "#c37722",
+            "editorBracketHighlight.foreground5": "#57862c",
+            "editorBracketHighlight.foreground6": "#829a6c",
+            "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000",
+            "editor.lineHighlightBorder": "#333333",
+            "editor.background": "#333333",
+            "editor.selectionBackground": "#b994a8",
+            "banner.background": "#333333",
+            "menu.background": "#b994a8",
+            "sideBar.background": "#333333",
+            "panel.background": "#333333",
+            "badge.background": "#333333",
+            "input.background": "#333333",
+            "button.background": "#333333",
+            "statusBar.background": "#333333",
+            "tab.activeBackground": "#b994a8a4",
+            "tab.inactiveBackground": "#333333",
+            "tab.hoverBackground": "#b994a8",
+            "sideBar.dropBackground": "#333333",
+            "list.dropBackground": "#333333",
+            "activityBar.background": "#333333",
+            "selection.background": "#dbc0cf",
+            "list.focusBackground": "#333333",
+            "editorPane.background": "#333333",
+            "titleBar.activeBackground": "#333333",
+            "sideBarTitle.background": "#333333",
+            "dropdown.listBackground": "#333333",
+            "toolbar.hoverBackground": "#333333",
+            "menu.separatorBackground": "#333333",
+            "dropdown.background": "#333333",
+            "outputView.background": "#333333",
+            "checkbox.background": "#333333",
+            "breadcrumb.background": "#333333",
+            "editorGutter.background": "#333333",
+            "commandCenter.background": "#333333",
+            "toolbar.activeBackground": "#333333",
+            "activityBarTop.background": "#333333",
+            "extensionButton.background": "#333333",
+            "sideBarSectionHeader.background": "#333333",
+            "debugToolBar.background": "#333333",
+            "activityBarBadge.background": "#333333",
+            "scrollbar.background": "#333333",
+            "activityBar.activeBackground": "#333333",
+            "editorGroupHeader.tabsBackground": "#333333",
+            "welcomePage.background": "#333333",
+            "welcomePage.tileBackground": "#333333",
+            "editorGroup.emptyBackground": "#333333",
+            "statusBar.noFolderBackground": "#333333",
+            "textLink.foreground": "#b994a8",
+            "textLink.activeForeground": "#333333",
+            "list.hoverBackground": "#b994a8a4",
+            "scrollbarSlider.activeBackground": "#b994a8a4",
+            "scrollbarSlider.background": "#b994a8a4",
+            "scrollbarSlider.hoverBackground": "#b994a8",
+            "editor.findMatchBackground": "#b994a8",
+            "editor.findMatchHighlightBackground": "#b994a8a4",
+            "input.placeholderForeground": "#474747",
+            "editorWidget.background": "#b994a8",
+            "titleBar.inactiveBackground": "#333333",
+            "inputValidation.infoBackground": "#ff0000",
+            "button.hoverBackground": "#b994a8a4",
+            "menubar.selectionBackground": "#b994a8a4",
+            "list.inactiveSelectionBackground": "#b994a8a4",
+            "quickInput.background": "#b994a8",
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[E Ink 陰陽 Light]": {
+            "textMateRules": [
+                {
+                    "scope": "variable.other",
+                    "settings": {
+                        "foreground": "#ae749a"
+                    }
+                },
+                {
+                    "scope": "variable.other.property",
+                    "settings": {
+                        "foreground": "#e7798b"
+                    }
+                },
+                {
+                    "scope": "variable.other.enummember",
+                    "settings": {
+                        "foreground": "#ae749a"
+                    }
+                },
+                {
+                    "scope": "variable.language",
+                    "settings": {
+                        "foreground": "#a0a329"
+                    }
+                },
+                {
+                    "scope": "entity.name.function",
+                    "settings": {
+                        "foreground": "#c37722"
+                    }
+                },
+                {
+                    "scope": "string.quoted.single, string.quoted.double, string.unquoted, string.regexp",
+                    "settings": {
+                        "foreground": "#474747"
+                    }
+                },
+                {
+                    "scope": "comment, comment.line, comment.line.number-sign, comment.block",
+                    "settings": {
+                        "foreground": "#7a7a7a"
+                    }
+                },
+                {
+                    "scope": "constant.numeric, constant.other",
+                    "settings": {
+                        "foreground": "#5a5a5a"
+                    }
+                },
+                {
+                    "scope": "invalid, invalid.deprecated, invalid.illegal",
+                    "settings": {
+                        "foreground": "#ec4e4e"
+                    }
+                },
+            ]
+        },
+        "[E Ink 陰陽 Dark]": {
+            "textMateRules": [
+                {
+                    "scope": "variable.other",
+                    "settings": {
+                        "foreground": "#b994a8"
+                    }
+                },
+                {
+                    "scope": "variable.other.property",
+                    "settings": {
+                        "foreground": "#e7798b"
+                    }
+                },
+                {
+                    "scope": "variable.other.enummember",
+                    "settings": {
+                        "foreground": "#ae749a"
+                    }
+                },
+                {
+                    "scope": "variable.language",
+                    "settings": {
+                        "foreground": "#a0a329"
+                    }
+                },
+                {
+                    "scope": "entity.name.function",
+                    "settings": {
+                        "foreground": "#c37722"
+                    }
+                },
+                {
+                    "scope": "string.quoted.single, string.quoted.double, string.unquoted, string.regexp",
+                    "settings": {
+                        "foreground": "#f5dbead4"
+                    }
+                },
+                {
+                    "scope": "comment, comment.line, comment.line.number-sign, comment.block",
+                    "settings": {
+                        "foreground": "#cccccc"
+                    }
+                },
+                {
+                    "scope": "constant.numeric, constant.other",
+                    "settings": {
+                        "foreground": "#f5dbea"
+                    }
+                },
+                {
+                    "scope": "invalid, invalid.deprecated, invalid.illegal",
+                    "settings": {
+                        "foreground": "#ec4e4e"
+                    }
+                },
+                {
+                    "scope": "keyword.control",
+                    "settings": {
+                        "foreground": "#f5dbeaa4"
+                    }
+                },
+            ]
+        }
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "[E Ink 陰陽 Dark]": {
+            "rules": {
+                "function": { "foreground": "#f5dbeac4" }
+            }
+        }
+    },
+    "workbench.preferredLightColorTheme": "E Ink 陰陽 Light",
+    "workbench.preferredDarkColorTheme": "E Ink 陰陽 Dark",
+    "editor.occurrencesHighlight": "off",
+    "editor.selectionHighlight": false,
+    "editor.inlineSuggest.syntaxHighlightingEnabled": false,
+    "editor.matchBrackets": "always",
+    "editor.fontFamily": "'SpaceMono Nerd Font'",
+    "terminal.integrated.fontFamily": "'SpaceMono Nerd Font'",
+    "editor.inlayHints.fontFamily": "'SpaceMono Nerd Font'",
+    "editor.inlineSuggest.fontFamily": "'SpaceMono Nerd Font'",
+    "chat.editor.fontFamily": "'SpaceMono Nerd Font'",
+    "chat.fontFamily": "'SpaceMono Nerd Font'",
+    "debug.console.fontFamily": "'SpaceMono Nerd Font'",
+    "scm.inputFontFamily": "'SpaceMono Nerd Font'",
+    "notebook.markup.fontFamily": "'SpaceMono Nerd Font'",
+    "notebook.output.fontFamily": "'SpaceMono Nerd Font'",
+    "terminal.integrated.fontSize": 16,
+    "editor.codeLensFontFamily": "'SpaceMono Nerd Font'",
+    "window.zoomLevel": 1.75,
+    "security.workspace.trust.untrustedFiles": "open",
+    "chat.agent.enabled": false,
+    "workbench.browser.enableChatTools": false,
+    "workbench.commandPalette.showAskInChat": false,
+    "chat.checkpoints.enabled": false,
+    "chat.editing.confirmEditRequestRemoval": false,
+    "chat.editing.confirmEditRequestRetry": false,
+    "window.autoDetectColorScheme": true,
+    "editor.fontSize": 16,
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "explorer.decorations.colors": false
+}

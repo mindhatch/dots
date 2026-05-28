@@ -1,0 +1,8 @@
+// ────────────── Startup Applications ──────────────
+// https://github.com/YaLTeR/niri/wiki/Configuration:-Miscellaneous#spawn-sh-at-startup
+
+    spawn-at-startup "~/Scripts/autostart"
+    spawn-at-startup "noctalia"
+    // spawn-at-startup "mako"
+    spawn-at-startup "vesktop"
+    spawn-sh-at-startup "~/Scripts/polkit"

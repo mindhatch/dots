@@ -1,0 +1,97 @@
+.theme-light:not(.custom-user-profile-theme) {
+    --text-0: #474747; /* text on colored elements */
+    --text-1: #474747; /* other normally white text */
+    --text-2: #333333; /* headings and important text */
+    --text-3: #474747; /* normal text */
+    --text-4: #474747; /* icon buttons and channels */
+    --text-5: #333333; /* muted channels/chats and timestamps */
+
+    --bg-1: #e6cddb; /* dark buttons when clicked */
+    --bg-2: #f5dbea; /* dark buttons */
+    --bg-3: #e6cddb; /* spacing, secondary elements */
+    --bg-4: #f5dbea; /* main background color */
+    --hover: #dbc0cfa4; /* channels and buttons when hovered */
+    --active: #e6cddba4; /* channels and buttons when clicked or selected */
+    --active-2: #e6cddba4; /* extra state for transparent buttons */
+    --message-hover: #e6cddba4; /* messages when hovered */
+
+    --accent-1: #5a5a5a; /* links and other accent text */
+    --accent-2: #5a5a5a; /* small accent elements */
+    --accent-3: #e6cddb; /* accent buttons */
+    --accent-4: #dbc0cf; /* accent buttons when hovered */
+    --accent-5: #e6cddb; /* accent buttons when clicked */
+    --accent-new: var(
+        --accent-2
+    ); /* stuff that's normally red like mute/deafen buttons */
+    --mention: linear-gradient(
+        to right,
+        color-mix(in hsl, var(--accent-2), transparent 80%) 40%,
+        transparent
+    ); /* background of messages that mention you */
+    --mention-hover: linear-gradient(
+        to right,
+        color-mix(in hsl, var(--accent-2), transparent 90%) 40%,
+        transparent
+    ); /* background of messages that mention you when hovered */
+}
+
+.theme-dark:not(.custom-user-profile-theme) {
+    --text-0: #f5dbea; /* text on colored elements */
+    --text-1: #f5dbea; /* other normally white text */
+    --text-2: #e6cddb; /* headings and important text */
+    --text-3: #f5dbea; /* normal text */
+    --text-4: #f5dbea; /* icon buttons and channels */
+    --text-5: #e6cddb; /* muted channels/chats and timestamps */
+
+    --bg-1: #b994a8; /* dark buttons when clicked */
+    --bg-2: #b994a8a4; /* dark buttons */
+    --bg-3: #333333; /* spacing, secondary elements */
+    --bg-4: #333333; /* main background color */
+    --hover: linear-gradient(
+        to right,
+        color-mix(in hsl, #b994a8, transparent 80%) 40%,
+        transparent
+    ); /* channels and buttons when hovered */
+    --active: linear-gradient(
+        to right,
+        color-mix(in hsl, #b994a8a4, transparent 80%) 40%,
+        transparent
+    ); /* channels and buttons when clicked or selected */
+    --active-2: #b994a8; /* extra state for transparent buttons */
+    --message-hover: linear-gradient(
+        to right,
+        color-mix(in hsl, #b994a8a4, transparent 80%) 40%,
+        transparent
+    ); /* messages when hovered */
+
+    --accent-1: #b994a8; /* links and other accent text */
+    --accent-2: #e6cddb; /* small accent elements */
+    --accent-3: #b994a8a4; /* accent buttons */
+    --accent-4: #b994a8; /* accent buttons when hovered */
+    --accent-5: #e6cddb; /* accent buttons when clicked */
+    --accent-new: var(
+        --accent-2
+    ); /* stuff that's normally red like mute/deafen buttons */
+    --mention: linear-gradient(
+        to right,
+        color-mix(in hsl, var(--accent-2), transparent 80%) 40%,
+        transparent
+    ); /* background of messages that mention you */
+    --mention-hover: linear-gradient(
+        to right,
+        color-mix(in hsl, var(--accent-2), transparent 90%) 40%,
+        transparent
+    ); /* background of messages that mention you when hovered */
+
+    /* border colors */
+    --border-light: #b994a8; /* general light border color */
+    --border: #444444; /* general normal border color */
+    --border-hover: #e6bddb; /* border color of panels when hovered */
+    --button-border: hsl(
+        235,
+        0%,
+        100%,
+        0.1
+    ); /* neutral border color of buttons */
+
+}

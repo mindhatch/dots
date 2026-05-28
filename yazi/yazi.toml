@@ -1,0 +1,7 @@
+[mgr]
+show_hidden = true
+
+[opener]
+edit = [
+    { run = "code %s",  desc = "code",  for = "unix", block = false },
+]

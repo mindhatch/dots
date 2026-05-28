@@ -1,0 +1,38 @@
+#! /usr/bin/env zsh
+current_theme=$(gsettings get org.gnome.desktop.interface gtk-theme)
+
+if [ "${current_theme}" = "'Adwaita-light'" ]; then
+    gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita'
+    gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+    gsettings set org.gnome.desktop.interface icon-theme 'arcticons-dark'
+    sed -i 's/active-color "#333333"/active-color "#b994a8"/' ~/.config/niri/cfg/layout.kdl
+    sed -i "s/e-pink.theme/e-pink-dark.theme/" ~/.config/btop/btop.conf
+    sed -i 's/color "#000000CC"/color "#b994a8CC"/' ~/.config/niri/cfg/rules.kdl
+    sed -i 's/#f5dbea/transparent/' ~/.config/gtk-3.0/gtk.css
+    sed -i 's/#333333/#b994a8/' ~/.config/gtk-3.0/gtk.css
+    sed -i 's/e-pink/e-pink-dark/' ~/.config/fuzzel/fuzzel.ini
+    sed -i 's/light/dark/' ~/.local/state/noctalia/settings.toml
+    sed -i 's/#000000/#b994a8/' ~/.local/state/noctalia/settings.toml
+    makoctl reload
+    pkill -USR1 foot
+    pkill -SIGUSR2 btop
+    killall swaybg
+    swaybg -c 333333 &    
+elif [ "${current_theme}" = "'Adwaita'" ]; then
+    gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-light'
+    gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'
+    gsettings set org.gnome.desktop.interface icon-theme 'arcticons-light'
+    sed -i 's/active-color "#b994a8"/active-color "#333333"/' ~/.config/niri/cfg/layout.kdl
+    sed -i 's/color "#b994a8CC"/color "#000000CC"/' ~/.config/niri/cfg/rules.kdl
+    sed -i "s/e-pink-dark.theme/e-pink.theme/" ~/.config/btop/btop.conf
+    sed -i 's/transparent/#f5dbea/' ~/.config/gtk-3.0/gtk.css
+    sed -i 's/#b994a8/#333333/' ~/.config/gtk-3.0/gtk.css
+    sed -i 's/e-pink-dark/e-pink/' ~/.config/fuzzel/fuzzel.ini
+    sed -i 's/dark/light/' ~/.local/state/noctalia/settings.toml
+    sed -i 's/#b994a8/#000000/' ~/.local/state/noctalia/settings.toml
+    makoctl reload
+    pkill -USR2 foot
+    pkill -SIGUSR2 btop
+    killall swaybg
+    swaybg -c f5dbea &
+fi
