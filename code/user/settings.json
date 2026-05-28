@@ -53,8 +53,8 @@
             "welcomePage.tileBackground": "#f5dbea",
             "editorGroup.emptyBackground": "#f5dbea",
             "statusBar.noFolderBackground": "#f5dbea",
-            "textLink.foreground": "#474747",
-            "textLink.activeForeground": "#333333",
+            "textLink.foreground": "#ae749a",
+            "textLink.activeForeground": "#474747",
             "list.hoverBackground": "#dbc0cf",
             "scrollbarSlider.activeBackground": "#dbc0cf",
             "scrollbarSlider.background": "#dbc0cf",
@@ -120,14 +120,14 @@
             "editorGroup.emptyBackground": "#333333",
             "statusBar.noFolderBackground": "#333333",
             "textLink.foreground": "#b994a8",
-            "textLink.activeForeground": "#333333",
+            "textLink.activeForeground": "#f5dbea",
             "list.hoverBackground": "#b994a8a4",
             "scrollbarSlider.activeBackground": "#b994a8a4",
             "scrollbarSlider.background": "#b994a8a4",
             "scrollbarSlider.hoverBackground": "#b994a8",
             "editor.findMatchBackground": "#b994a8",
             "editor.findMatchHighlightBackground": "#b994a8a4",
-            "input.placeholderForeground": "#474747",
+            "input.placeholderForeground": "#b994a8a4",
             "editorWidget.background": "#b994a8",
             "titleBar.inactiveBackground": "#333333",
             "inputValidation.infoBackground": "#ff0000",
@@ -135,6 +135,13 @@
             "menubar.selectionBackground": "#b994a8a4",
             "list.inactiveSelectionBackground": "#b994a8a4",
             "quickInput.background": "#b994a8",
+            "tab.border": "#cccccc33",
+            "sideBar.border": "#cccccc33",
+            "titleBar.border": "#cccccc33",
+            "dropdown.border": "#cccccc33",
+            "statusBar.border": "#cccccc33",
+            "activityBar.border": "#cccccc33",
+            "tab.activeBorder": "#cccccc33"
         }
     },
     "editor.tokenColorCustomizations": {
@@ -161,13 +168,15 @@
                 {
                     "scope": "variable.language",
                     "settings": {
-                        "foreground": "#a0a329"
+                        "foreground": "#a0a329",
+                        "fontStyle": ""
                     }
                 },
                 {
                     "scope": "entity.name.function",
                     "settings": {
-                        "foreground": "#c37722"
+                        "foreground": "#c37722",
+                        "fontStyle": ""
                     }
                 },
                 {
@@ -179,7 +188,8 @@
                 {
                     "scope": "comment, comment.line, comment.line.number-sign, comment.block",
                     "settings": {
-                        "foreground": "#7a7a7a"
+                        "foreground": "#7a7a7a",
+                        "fontStyle": "italic"
                     }
                 },
                 {
@@ -194,6 +204,12 @@
                         "foreground": "#ec4e4e"
                     }
                 },
+                {
+                    "scope": "keyword.control",
+                    "settings": {
+                        "fontStyle": ""
+                    }
+                }
             ]
         },
         "[E Ink 陰陽 Dark]": {
@@ -219,13 +235,15 @@
                 {
                     "scope": "variable.language",
                     "settings": {
-                        "foreground": "#a0a329"
+                        "foreground": "#abbf89",
+                        "fontStyle": ""
                     }
                 },
                 {
                     "scope": "entity.name.function",
                     "settings": {
-                        "foreground": "#c37722"
+                        "foreground": "#b18bc9",
+                        "fontStyle": ""
                     }
                 },
                 {
@@ -237,7 +255,8 @@
                 {
                     "scope": "comment, comment.line, comment.line.number-sign, comment.block",
                     "settings": {
-                        "foreground": "#cccccc"
+                        "foreground": "#cccccc",
+                        "fontStyle": "italic"
                     }
                 },
                 {
@@ -255,16 +274,22 @@
                 {
                     "scope": "keyword.control",
                     "settings": {
-                        "foreground": "#f5dbeaa4"
+                        "foreground": "#e691cc",
+                        "fontStyle": ""
                     }
                 },
             ]
         }
     },
     "editor.semanticTokenColorCustomizations": {
+        "[E Ink 陰陽 Light]": {
+            "rules": {
+                "function": { "foreground": "#aa767e" }
+            }
+        },
         "[E Ink 陰陽 Dark]": {
             "rules": {
-                "function": { "foreground": "#f5dbeac4" }
+                "function": { "foreground": "#aa767e" }
             }
         }
     },
@@ -298,5 +323,6 @@
     "editor.fontSize": 16,
     "editor.minimap.enabled": false,
     "editor.stickyScroll.enabled": false,
-    "explorer.decorations.colors": false
+    "explorer.decorations.colors": false,
+    "breadcrumbs.enabled": false
 }
