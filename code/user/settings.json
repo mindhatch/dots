@@ -28,6 +28,7 @@
             "activityBar.background": "#f5dbea",
             "selection.background": "#dbc0cf",
             "list.focusBackground": "#f5dbea",
+            "list.inactiveSelectionBackground": "#dbc0cf",
             "editorPane.background": "#f5dbea",
             "titleBar.activeBackground": "#f5dbea",
             "sideBarTitle.background": "#f5dbea",
@@ -66,9 +67,30 @@
             "titleBar.inactiveBackground": "#f5dbea",
             "inputValidation.infoBackground": "#ff0000",
             "button.hoverBackground": "#dbc0cf",
+            "tab.border": "#b994a8",
+            "sideBar.border": "#b994a8",
+            "titleBar.border": "#b994a8",
+            "dropdown.border": "#b994a8",
+            "statusBar.border": "#b994a8",
+            "activityBar.border": "#b994a8",
+            "tab.activeBorder": "#b994a8",
+            "menu.border": "#b994a8",
+            "tab.activeBorderTop": "#b994a8",
+            "activityBar.activeBorder": "#333333",
+            "input.border": "#b994a8",
+            "sideBarSectionHeader.border": "#b994a8",
+            "editorWidget.border": "#b994a8",
+            "tab.selectedBorderTop": "#b994a8",
+            "menubar.selectionBorder": "#b994a8",
+            "inputOption.activeBorder": "#b994a8",
+            "widget.border": "#b994a8",
+            "panel.border": "#b994a8",
+            "contrastBorder": "#b994a8",
+            "editorGroup.border": "#b994a8",
+            "editorGroupHeader.border":"#b994a8"
         },
         "[E Ink 陰陽 Dark]": {
-            "editorBracketHighlight.foreground1": "#785D6F",
+            "editorBracketHighlight.foreground1": "#c7a4bc",
             "editorBracketHighlight.foreground2": "#ae749a",
             "editorBracketHighlight.foreground3": "#E7798B",
             "editorBracketHighlight.foreground4": "#c37722",
@@ -140,13 +162,13 @@
             "menubar.selectionBackground": "#b994a8a4",
             "list.inactiveSelectionBackground": "#b994a8a4",
             "quickInput.background": "#333333",
-            "tab.border": "#cccccc33",
-            "sideBar.border": "#cccccc33",
-            "titleBar.border": "#cccccc33",
-            "dropdown.border": "#cccccc33",
-            "statusBar.border": "#cccccc33",
-            "activityBar.border": "#cccccc33",
-            "tab.activeBorder": "#cccccc33",
+            "tab.border": "#b994a8",
+            "sideBar.border": "#b994a8",
+            "titleBar.border": "#b994a8",
+            "dropdown.border": "#b994a8",
+            "statusBar.border": "#b994a8",
+            "activityBar.border": "#b994a8",
+            "tab.activeBorder": "#b994a8",
             "sideBar.foreground": "#f5dbea",
             "icon.foreground": "#b994a8",
             "statusBar.foreground": "#b994a8",
@@ -160,9 +182,17 @@
             "tab.activeForeground": "#f5dbea",
             "sideBarTitle.foreground": "#b994a8",
             "sideBarSectionHeader.foreground": "#b994a8",
-            "sideBarSectionHeader.border": "#cccccc33",
+            "sideBarSectionHeader.border": "#b994a8",
             "editorWidget.border": "#b994a8",
-            "menubar.selectionForeground": "#ffffff"
+            "menubar.selectionForeground": "#ffffff",
+            "tab.selectedBorderTop": "#b994a8",
+            "menubar.selectionBorder": "#b994a8",
+            "inputOption.activeBorder": "#b994a8",
+            "widget.border": "#b994a8",
+            "panel.border": "#b994a8",
+            "contrastBorder": "#b994a8",
+            "editorGroup.border": "#b994a8",
+            "editorGroupHeader.border":"#b994a8"
         }
     },
     "editor.tokenColorCustomizations": {
@@ -228,6 +258,7 @@
                 {
                     "scope": "keyword.control",
                     "settings": {
+                        "foreground": "#bd77a8",
                         "fontStyle": ""
                     }
                 }
@@ -263,7 +294,7 @@
                 {
                     "scope": "entity.name.function",
                     "settings": {
-                        "foreground": "#b18bc9",
+                        "foreground": "#c37722",
                         "fontStyle": ""
                     }
                 },
@@ -283,7 +314,7 @@
                 {
                     "scope": "constant.numeric, constant.other",
                     "settings": {
-                        "foreground": "#f5dbea"
+                        "foreground": "#dbc0cf"
                     }
                 },
                 {

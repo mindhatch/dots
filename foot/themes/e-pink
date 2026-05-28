@@ -5,7 +5,7 @@ foreground = 333333
 selection-background = b994a8
 selection-foreground = 333333
 
-regular0 = e6cddb
+regular0 = f5dbea
 regular1 = 474747
 regular2 = 474747
 regular3 = 474747
@@ -36,12 +36,12 @@ regular0 = 333333
 regular1 = b994a8
 regular2 = b994a8
 regular3 = b994a8
-regular4 = f5dbea
+regular4 = b994a8
 regular5 = b994a8
 regular6 = b994a8
-regular7 = e6cddb
+regular7 = b994a8
 
-bright0 = b994a8
+bright0 = 725c68
 bright1 = b994a8
 bright2 = b994a8
 bright3 = b994a8

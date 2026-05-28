@@ -33,15 +33,26 @@
         color-mix(in hsl, var(--accent-2), transparent 90%) 40%,
         transparent
     ); /* background of messages that mention you when hovered */
+
+    /* border colors */
+    --border-light: #b994a8; /* general light border color */
+    --border: #b994a8; /* general normal border color */
+    --border-hover: #e6bddb; /* border color of panels when hovered */
+    --button-border: hsl(
+        235,
+        0%,
+        100%,
+        0.1
+    ); /* neutral border color of buttons */
 }
 
 .theme-dark:not(.custom-user-profile-theme) {
     --text-0: #f5dbea; /* text on colored elements */
     --text-1: #f5dbea; /* other normally white text */
-    --text-2: #e6cddb; /* headings and important text */
+    --text-2: #b994a8; /* headings and important text */
     --text-3: #f5dbea; /* normal text */
-    --text-4: #f5dbea; /* icon buttons and channels */
-    --text-5: #e6cddb; /* muted channels/chats and timestamps */
+    --text-4: #b994a8; /* icon buttons and channels */
+    --text-5: #b994a8cc; /* muted channels/chats and timestamps */
 
     --bg-1: #b994a8; /* dark buttons when clicked */
     --bg-2: #b994a8a4; /* dark buttons */
@@ -66,7 +77,7 @@
 
     --accent-1: #b994a8; /* links and other accent text */
     --accent-2: #e6cddb; /* small accent elements */
-    --accent-3: #b994a8a4; /* accent buttons */
+    --accent-3: #b994a8; /* accent buttons */
     --accent-4: #b994a8; /* accent buttons when hovered */
     --accent-5: #e6cddb; /* accent buttons when clicked */
     --accent-new: var(
@@ -85,7 +96,7 @@
 
     /* border colors */
     --border-light: #b994a8; /* general light border color */
-    --border: #444444; /* general normal border color */
+    --border: #b994a8; /* general normal border color */
     --border-hover: #e6bddb; /* border color of panels when hovered */
     --button-border: hsl(
         235,
@@ -93,5 +104,5 @@
         100%,
         0.1
     ); /* neutral border color of buttons */
-
 }
+
